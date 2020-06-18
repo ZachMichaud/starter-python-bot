@@ -26,6 +26,7 @@ if __name__ == "__main__":
         botManager = bot_manager.BotManager(spawn_bot)
         res = resourcer.Resourcer(botManager)
         res.start()
+	print("Zach")
     else:
         # only want to run a single instance of the bot in dev mode
         bot = SlackBot(slack_token)
